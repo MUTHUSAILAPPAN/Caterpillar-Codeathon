@@ -1,4 +1,7 @@
 {
+  "name": "fleetwatch-frontend",
+  "private": true,
+  "version": "0.1.0",
   "name": "smart-rental-tracker-frontend",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +12,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.19.0",
+    "lucide-react": "^1.28.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

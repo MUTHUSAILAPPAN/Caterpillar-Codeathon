@@ -4,6 +4,9 @@ from sqlalchemy import Column, Date, DateTime, Float, Integer, String
 from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
+from sqlalchemy import Column, Integer, String, Float, ForeignKey
+from sqlalchemy.orm import relationship
+from app.db.session import Base
 
 
 class UsageLog(Base):
@@ -21,3 +24,11 @@ class UsageLog(Base):
 
     def __repr__(self) -> str:
         return f"UsageLog(id={self.id}, equipment_id={self.equipment_id!r}, log_date={self.log_date!r})"
+    equipment_id = Column(String, ForeignKey("equipment.id"), nullable=False)
+    log_date = Column(String, nullable=False)
+    engine_hours = Column(Float, nullable=True)
+    idle_hours = Column(Float, nullable=True)
+    fuel_usage = Column(Float, nullable=True)
+    location = Column(String, nullable=True)
+
+    equipment = relationship("Equipment", back_populates="usage_logs")

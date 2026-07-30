@@ -1,0 +1,21 @@
+id,type,site_id,customer_id,check_in_date,check_out_date,engine_hours_per_day,idle_hours_per_day,rental_days,last_operator_id,status,dealer_name,current_lat,current_lng,outside_geofence
+EQX1001,Excavator,S003,CUST01,2025-04-01,2025-04-16,1.5,10.0,15,OP101,returned,Cat Dealer North,34.05,-118.25,false
+EQX1002,Crane,,CUST02,2025-03-10,2025-03-30,0.0,11.0,20,,rented,Cat Dealer West,34.06,-118.24,false
+EQX1003,Bulldozer,S002,CUST01,2025-02-15,2025-03-11,7.5,0.5,25,OP203,returned,Cat Dealer North,34.07,-118.26,false
+EQX1004,Excavator,S004,CUST03,2025-05-05,2025-05-15,2.0,9.0,10,OP106,rented,Cat Dealer South,34.08,-118.27,true
+EQX1005,Bulldozer,S006,CUST01,2025-01-01,2025-01-31,8.0,0.0,30,OP301,returned,Cat Dealer North,34.09,-118.28,false
+EQX1006,Grader,S001,CUST02,2025-04-05,2025-04-23,3.0,6.0,18,OP114,rented,Cat Dealer West,34.10,-118.29,false
+EQX1007,Excavator,,CUST03,2025-03-20,2025-04-01,0.0,12.0,12,,rented,Cat Dealer South,34.11,-118.30,false
+EQX1008,Backhoe,S002,CUST01,2026-07-15,2026-08-05,5.0,2.0,21,OP102,rented,Cat Dealer North,11.0168,76.9558,false
+EQX1009,Excavator,S003,CUST02,2026-07-01,2026-07-25,6.0,1.0,24,OP103,rented,Cat Dealer West,11.0200,76.9600,true
+EQX1010,Skid Steer,S001,CUST03,2026-07-28,2026-08-10,1.0,8.0,13,OP104,rented,Cat Dealer South,11.0180,76.9500,false
+EQX1011,Crane,S004,CUST01,2026-07-20,2026-08-20,4.0,4.0,31,OP105,rented,Cat Dealer North,11.0300,76.9700,false
+EQX1012,Grader,S005,CUST02,2026-06-15,2026-07-15,2.5,7.5,30,OP107,rented,Cat Dealer West,11.0400,76.9800,false
+EQX1013,Bulldozer,S002,CUST03,2026-07-29,2026-08-15,0.0,0.0,17,,rented,Cat Dealer South,11.0500,76.9900,false
+EQX1014,Excavator,S006,CUST01,2026-07-10,2026-07-20,8.0,1.0,10,OP108,returned,Cat Dealer North,11.0600,77.0000,false
+EQX1015,Loader,S001,CUST02,2026-07-25,2026-08-01,1.5,5.0,7,OP109,rented,Cat Dealer West,11.0168,76.9558,false
+EQX1016,Articulated Truck,S003,CUST01,2026-07-05,2026-07-18,3.5,6.5,13,OP110,rented,Cat Dealer North,11.0700,77.0100,false
+EQX1017,Wheel Loader,S002,CUST02,2026-07-20,2026-08-05,7.0,0.5,16,OP111,rented,Cat Dealer West,11.0800,77.0200,false
+EQX1018,Excavator,,CUST03,2026-07-25,2026-08-10,0.0,4.0,16,,rented,Cat Dealer South,11.0900,77.0300,false
+EQX1019,Backhoe,S001,CUST01,2026-06-01,2026-06-15,6.5,2.0,14,OP112,returned,Cat Dealer North,11.1000,77.0400,false
+EQX1020,Grader,S004,CUST02,2026-07-15,2026-07-28,2.0,8.5,13,OP113,rented,Cat Dealer West,11.1100,77.0500,true

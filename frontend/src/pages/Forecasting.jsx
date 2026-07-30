@@ -1,3 +1,5 @@
+import PlaceholderPage from './PlaceholderPage'
+export default function Forecasting() { return <PlaceholderPage title="Forecasting" /> }
 import React, { useState, useEffect, useContext } from 'react';
 import client from '../api/client';
 import { AuthContext } from '../context/AuthContext';

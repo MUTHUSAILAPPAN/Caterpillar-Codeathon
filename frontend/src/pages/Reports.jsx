@@ -113,3 +113,5 @@ const Reports = () => {
 };
 
 export default Reports;
+import PlaceholderPage from './PlaceholderPage'
+export default function Reports() { return <PlaceholderPage title="Reports" /> }
