@@ -1,3 +1,5 @@
+import PlaceholderPage from './PlaceholderPage'
+export default function Alerts() { return <PlaceholderPage title="Alerts" /> }
 import React, { useState, useEffect, useContext } from 'react';
 import client from '../api/client';
 import { AuthContext } from '../context/AuthContext';
