@@ -6,3 +6,10 @@ python-dotenv
 passlib[bcrypt]
 python-jose[cryptography]
 python-multipart
+uvicorn
+sqlalchemy
+psycopg
+pydantic
+pydantic-settings
+pandas
+python-dotenv

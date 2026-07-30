@@ -42,3 +42,5 @@ export function AuthProvider({ children }) {
 }
 
 export const useAuth = () => useContext(AuthContext)
+import React, { createContext } from 'react';
+export const AuthContext = createContext({ user: { role: 'admin' } });

@@ -21,6 +21,14 @@ export default {
       animation: {
         fadeIn: 'fadeIn 0.8s ease-out forwards',
         progressBar: 'progressBar 2s ease-in-out forwards',
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'cat-yellow': '#FFCD11',
       },
     },
   },

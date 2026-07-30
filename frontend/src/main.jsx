@@ -10,4 +10,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <App />
     </BrowserRouter>
   </React.StrictMode>
+import Forecasting from './pages/Forecasting'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Forecasting />
+  </React.StrictMode>,
 )
